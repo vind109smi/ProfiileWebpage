@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>My CSS Website</title>
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href=home.html>Home</a></li>
+            <li><a href=news.html>News</a></li>
+            <li><a href=contact.html>Contact</a></li>
+            <li><a href=about.html>About</a></li>
+            <li class="topnav-right"><a 
+            href="#signup">Sign Up</a></li>
+            <li class="topnav-right"><a 
+            href="#signin">Sign In</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+    
+    
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6">
+             <div class="leftSide-col">
+                 <div class="headerStyles">
+              <h1 class="large">Welcome to My Top of the Hour Website</h1>
+              <h1 class="large">Thanks!</h1>
+             </div>
+                 </div>
+            </div>
+            <div class="col-6">
+                <div class="rightSide-col">
+                <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA3SAAAAJGUzMWFkNTQ1LTkwZjYtNDk0Mi04ZWM2LWI4NGU3NzY3OTUzMw.jpg" class="myImg">
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <header>
+        <h1 class="section2Header">The Standards of Awesomeness</h1>
+    </header>
+    <div class="container">
+        <div class="myRows">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="DevIcon.png">
+                    </div>    
+                    <label>Mission Statement</label>
+                    <p>Every person who walks into the world of CS does not need to be nervous. Time will adjust them into this new field. Learn loads and have fun!</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="DevIcon.png">
+                    </div>    
+                    <label>Things to Cover</label>
+                    <p>Programming in Java, Python, C++, C# and Ruby, <br>
+                    Computer Organization and PC Architecture, 
+                    <br>
+                    Cybersecurity and Software Analysis.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">   
+                    <label>After This Tutorial-Span Advice</label>
+                    <p>Seek in a profession involving anything in Computer Science and Information Systems:
+                    from Software Development to Networking Adminstration</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+            <article>
+                <p>I was once a student who had no headway in what direction I wanted to go for a career. I started off in the medical field but declined halfway through my freshman semester. After that, I carefully made my decision to switch to Computer Science and Information Systems. Not only have I made so many friends in the CSIS field, but I also bonded with my professors and preceptors. I gained tremendous experience in programming, computer hardware, software systems, networking and security concepts. <img src="https://emojipedia-us.s3.amazonaws.com/socialmedia/apple/96/slightly-smiling-face_1f642.png" class="happyFace"></p>
+            </article>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mobileStack">
+            <h1>Company</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#stories">Stories</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+            <h1>Contact</h1>
+                <ul>
+                    <li><a href="#customerservice">Customer Service</a></li>
+                    <li><a href="#management">Management</a></li>
+                    <li><a href="#corporate">Corporate</a></li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+            <h1>Help</h1>
+                <ul>
+                    <li><a href="#helpdesk">Help Desk</a></li>
+                    <li><a href="#sheikh's hotline">Sheikh's Hotline</a></li>
+                    <li><a href="#24/7regoffice">24/7 Regional Office</a></li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+            <h1>Connect</h1>
+                <ul>
+                    <li><a href="#facebook">Facebook</a></li>
+                    <li><a href="#twitter">Twitter</a></li>
+                    <li><a href="#instagram">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+
+<script>
+ function dropdownMenu() {
+     var x = document.getElementById("dropdownClick");
+     if (x.className === "topnav") {
+         x.className += " responsive";
+         /*change topnav to topnav.responsive*/
+     }
+     else {
+         x.className = "topnav";
+     }
+ }   
+</script> 
+    
+</body>
+
+</html>
