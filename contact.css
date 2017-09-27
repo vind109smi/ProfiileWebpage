@@ -1,0 +1,10 @@
+body {
+    background-color: lightgreen;
+}
+
+form.myContactForm {
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    
+}

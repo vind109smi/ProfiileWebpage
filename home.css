@@ -1,0 +1,16 @@
+body {
+    background-color:lightskyblue;
+}
+
+header.myHeadersOnly {
+    margin: auto;
+    display: block;
+}
+
+header.myHeadersOnly h1,h3,h5 {
+    color: mediumvioletred;
+}
+
+header.myHeadersOnly p {
+    color: darkorange;
+}

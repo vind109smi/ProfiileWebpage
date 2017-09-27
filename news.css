@@ -1,0 +1,27 @@
+body {
+    background-color: rebeccapurple;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 55px;
+    margin: auto;
+    color: red;
+    padding: 10px;
+}
+
+p {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    color: lime;
+    padding: 10px;
+}
+
+iframe.gotaVid {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
