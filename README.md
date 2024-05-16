@@ -1,2 +1,2 @@
-# ProfiileWebpage
-My personal webpage for shits and giggles
+# ProfiileWeb
+My personal code for fun
